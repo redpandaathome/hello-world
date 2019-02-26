@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+   <script>
+   var length = 9;
+   var results = [];
+
+   // 1. results 안에 1~9까지 넣는다.
+   // 2. 반복함수를 짠다. ㅇㅋ?
+
+   var f1 = function(length){
+       for(var i = 1; i<= length; i++){
+           results.push(i)
+       }
+   }
+
+   f1(length);
+
+   //자 이제 2 해볼까?
+
+   var dan = function(){
+        for(var i = 1; i<= length-1; i++){
+            document.write( "<h2>"+results[i] + "단</h2><br>")
+            for(var j = 0; j<= length-1; j++){
+                var a = results[i]
+                var b = results[j]
+                document.write( a + " * " + b + " = " + (a * b) + "<br>")
+            }
+        }
+   }
+ 
+ dan();
+
+
+   </script> 
+</body>
+</html>
