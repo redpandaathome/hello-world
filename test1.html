@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <script>
+    var arr = [1,1,2,2,2,3];
+    arr.result = [];
+
+    arr.isR = function(){
+        if(arr[0] === arr[1]){
+            return true;
+            this.ridR();
+        } return false;
+    }; 
+    arr.isR();
+
+    arr.ridR = function(){
+        if(isR){
+            this.result.push(arr[0]);
+            console.log("arr = " + arr );
+            this.shift();
+        }
+        this.isR();
+    }; 
+   
+    
+    </script>
+</body>
+</html>
